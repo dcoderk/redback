@@ -14,6 +14,7 @@
 
 
 ### Theme Installation
-- Download Theme from github (https://)
+- Download Theme from github (https://github.com/dcoderk/redback.git)
+- Or Clone it by doing (git clone https://github.com/dcoderk/redback.git)
 - Upload to your directory (themename/wp-content/themes/)
 - Activate Theme (From Admin Dashboard Go to Appearance > Themes > Select the New Theme and Activate)
