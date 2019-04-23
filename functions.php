@@ -121,9 +121,16 @@ add_action( 'widgets_init', 'redback_theme_widgets_init' );
  */
 function redback_theme_scripts() {
 	wp_enqueue_style( 'redback-theme-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'Font_Awesome', 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' );
+	wp_enqueue_style( 'Bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'MDB', get_template_directory_uri() . '/css/mdb.min.css' );
+	wp_enqueue_style( 'Style', get_template_directory_uri() . 'css/style.css' );
+	wp_enqueue_script( 'jQuery', get_template_directory_uri() . '/js/jquery-3.3.1.min.js', array(), '3.3.1', true );
+	wp_enqueue_script( 'Tether', get_template_directory_uri() . '/js/popper.min.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'Bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'MDB', get_template_directory_uri() . '/js/mdb.min.js', array(), '1.0.0', true );
 
 	wp_enqueue_script( 'redback-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
 	wp_enqueue_script( 'redback-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
