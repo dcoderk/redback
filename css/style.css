@@ -1,0 +1,222 @@
+/* custom style */
+body {
+    font-family: 'proxima-nova', sans-serif !important;
+    font-weight: 300; }
+
+
+/* Font */
+@font-face {
+    font-family: "ProximaNova";
+    src: local(ProximaNova Thin), url("../font/proxima-nova/Proxima Nova Thin.otf");
+    src: url("../font/proxima-nova/Proxima Nova Thin.otf?#iefix") format("embedded-opentype"), url("../font//proxima-nova/Proxima Nova Thin.otf") format("otf");
+    font-weight: 200; }
+  
+@font-face {
+    font-family: "ProximaNova";
+    src: local(ProximaNova Regular), url("../font/proxima-nova/ProximaNova-Regular.otf");
+    src: url("../font/proxima-nova/ProximaNova-Regular.otf?#iefix") format("embedded-opentype"), url("../font/proxima-nova/ProximaNova-Regular.otf") format("otf");
+    font-weight: 400; }
+
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../font/proxima-nova/Proxima Nova Semibold.otf");
+    src: url("../font/proxima-nova/Proxima Nova Semibold.otf?#iefix") format("embedded-opentype"), url("../font/proxima-nova/Proxima Nova Semibold.otf") format("otf");
+    font-weight: 500; }
+
+
+/* Navbar & Header */
+.custom-nav {
+    box-shadow: none;
+}
+
+.navbar.custom-nav {
+    padding: 50px;
+}
+
+.navbar.custom-nav ul {
+    margin-left: 65px;
+}
+
+.navbar.custom-nav ul li {
+    margin-right: 10px;
+}
+
+h2.heading-title {
+    font-size: 40px;
+}
+
+h6.heading-subtitle {
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+
+/* Product */
+.product-list {
+    margin-top: 70px;
+}
+
+.card-custom {
+    margin-top: 100px;
+}
+
+h5.product-heading {
+    font-size: 12px;
+}
+
+h3.product-title {
+    color: #244bbc;
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+
+p.product-description {
+    font-size: 12px;
+    line-height: 2;
+    width: 78%;
+}
+
+.custom-card {
+    border-radius: 10px;
+}
+
+p.product-icon {
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+h5.product-highlight {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.product-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+p.product-text2 {
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+.carousel-control {
+    text-align: right;
+    padding: 60px;
+}
+
+/* Form */
+
+.form-wrapper {
+    padding-top: 60px;
+}
+
+.custom-form {
+    margin-right: 60px;
+}
+
+p.form-description {
+    font-size: 12px;
+    line-height: 2;
+    width: 90%;
+}
+
+.form-section {
+    padding-top: 20px;
+}
+
+button.custom-btn {
+    background-image: linear-gradient(to right, #254dbd, #56b3e6);
+    border: 0;
+    padding: 10px 50px;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.125em;
+}
+
+input.custom-field  {
+    background: #f6f6f6;
+    border: 0;
+    border-radius: 100px;
+    padding: 25px;
+    font-size: 12px;
+}
+
+textarea.custom-field {
+    background: #f6f6f6;
+    border: 0;
+    border-radius: 20px !important;
+    padding: 25px;
+    font-size: 12px;
+}
+
+
+/* Guarantee */
+.guarantee-wrapper {
+    background-image: linear-gradient(to right, #254dbd, #56b3e6);
+    padding-bottom: 100px;
+    margin-top: 110px !important;
+ }
+
+ .guarantee-wrapper h2 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+h6.guarantee-list {
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+p.guarante-offer {
+    font-size: 12px;
+}
+
+
+.chat-icon {
+    position: relative;
+    float: right;
+    top: 55px;
+}
+
+
+/* Footer */
+footer.footer-bg {
+    background: #4f5465;
+    color: #fff;
+    line-height: 2.5;
+    font-size: 12px;
+    padding-bottom: 40px;
+}
+
+.footer-heading {
+    font-weight: bold;
+}
+
+.f-list1 {
+    margin-top: 50px;
+}
+
+.f-list2 {
+    margin-top: 60px;
+}
+
+.social-icon {
+    margin-top: 40px;
+}
+
+.social-icon a {
+    margin: 10px 15px 0px 0;
+}
+
+
+footer.footer-bg a {
+    color: #fff;
+}
+
