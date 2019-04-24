@@ -11,13 +11,16 @@
 
 ?>
 
-</div><!-- #content start from header-->
 
- <!-- Footer -->
+<!-- Footer -->
 <footer class="footer-bg font-small  pt-4">
 
 <!-- Footer Links -->
 <div class="container text-center text-md-left">
+  
+  <div class="chat-icon">
+    <a href="#!"><img src="<?php echo get_template_directory_uri(); ?>/img/chat-icon.png" width="105" height="95" alt="chat" /></a> 
+  </div>
 
   <div class="row p-4">
 
