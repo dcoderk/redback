@@ -99,7 +99,7 @@
 				'menu_class'     => 'navbar-nav nav-list mr-auto',
 			) );
 		?>
-		<ul class="navbar-nav mr-auto">
+		<ul class="navbar-nav header-icon mr-auto">
 			<li class="nav-item">
 			<a class="nav-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/Asset_A1.png"  alt="product" class="product-icon" /></a>
 			</li>
